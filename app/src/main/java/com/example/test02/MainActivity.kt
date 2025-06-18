@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
         /** 표준 SPP UUID */
         private val SPP_UUID: UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB")
         /** 전송할 텍스트 */
-        private const val REQUEST_TEXT = "TESTSTRING\r"
+        private const val REQUEST_TEXT = "%#IDN?\r"
     }
 
     private var socket: BluetoothSocket? = null
